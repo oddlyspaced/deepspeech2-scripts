@@ -1,8 +1,9 @@
 #!/bin/bash
 
-# Generates train.csv
+# Generates csv file for provided libri dataset
+
 # wav_filename,wav_filesize,transcript
-# common_voice_hi_23795246.wav,108332,मैं पूरी रात रोई।
+# file.wav,108332,test test
 
 inpfile=$(echo $1 | awk -F "/" '{print $NF}')
 dir=$(echo $1 | awk -F "$inpfile" '{print $1}')
