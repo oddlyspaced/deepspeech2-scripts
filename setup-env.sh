@@ -2,7 +2,7 @@
 
 # AUR Package for the specific python version needed
 PYTHON_VERSION_PACKAGE=python36
-
+# DeepSpeech version to clone
 DEEPSPEECH_VERSION=v0.9.3
 
 check_python() {
